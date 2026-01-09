@@ -30,7 +30,7 @@ O código foi organizado seguindo o princípio de separação de responsabilidad
 - `utils.js`: Funções utilitárias (leitura/escrita de arquivos, formatação e inputs).
 - `database.json`: Arquivo gerado automaticamente para armazenar o estoque.
 
-## 🏁 Como Rodar o Projeto
+##  Como Rodar o Projeto
 
 ### Pré-requisitos
 
@@ -44,13 +44,15 @@ Você precisa ter o **Node.js** instalado em sua máquina.
    git clone https://github.com/johnatanduarte/AgilStore.git
 
 2. **Acesse a pasta do projeto:** Abra o terminal e navegue até a pasta onde os arquivos estão localizados:
-   `cd agilstore`
+   ```bash
+   cd agilstore
 
-3. **Execute a aplicação:** Com o terminal aberto dentro da pasta do projeto, execute o comando abaixo para iniciar:
-   `node index.js`
-4. **Interaja com o menu:** Use o teclado para selecionar as opções numéricas apresentadas no terminal.
+4. **Execute a aplicação:** Com o terminal aberto dentro da pasta do projeto, execute o comando abaixo para iniciar:
+   ```bash
+   node index.js
+5. **Interaja com o menu:** Use o teclado para selecionar as opções numéricas apresentadas no terminal.
 
-=== AgilStore Modulada: Gerenciamento de Estoque ===
+ === AgilStore Modulada: Gerenciamento de Estoque ===
 1. Adicionar Produto
 2. Listar Produtos
 3. Atualizar Produto
