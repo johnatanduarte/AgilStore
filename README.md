@@ -58,5 +58,5 @@ Você precisa ter o **Node.js** instalado em sua máquina.
 3. Atualizar Produto
 4. Excluir Produto
 5. Buscar Produto
-6. Sair
+6. Sair  
 Escolha uma opção:
