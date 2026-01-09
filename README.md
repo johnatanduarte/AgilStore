@@ -1,8 +1,8 @@
-# 📦 AgilStore - Gerenciamento de Estoque
+#  AgilStore - Gerenciamento de Estoque
 
 Sistema de gerenciamento de inventário via linha de comando (CLI) desenvolvido para a loja de eletrônicos **AgilStore**. O objetivo é substituir o controle manual em planilhas por uma solução automatizada, rápida e com persistência de dados.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 O sistema permite realizar o CRUD (Create, Read, Update, Delete) completo de produtos:
 
@@ -14,14 +14,14 @@ O sistema permite realizar o CRUD (Create, Read, Update, Delete) completo de pro
 - **Buscar Produto:** Localização rápida por ID ou parte do nome.
 - **Persistência de Dados:** Todos os dados são salvos automaticamente em um arquivo `database.json`, garantindo que nada se perca ao fechar o programa.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **JavaScript**
 - **Node.js** (Ambiente de execução)
 - **File System (fs)** (Módulo nativo para persistência em JSON)
 - **Readline** (Módulo nativo para interação no terminal)
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 O código foi organizado seguindo o princípio de separação de responsabilidades:
 
@@ -44,10 +44,10 @@ Você precisa ter o **Node.js** instalado em sua máquina.
    git clone https://github.com/johnatanduarte/AgilStore.git
 
 2. **Acesse a pasta do projeto:** Abra o terminal e navegue até a pasta onde os arquivos estão localizados:
-   cd agilstore
+   `cd agilstore`
 
 3. **Execute a aplicação:** Com o terminal aberto dentro da pasta do projeto, execute o comando abaixo para iniciar:
-   node index.js
+   `node index.js`
 4. **Interaja com o menu:** Use o teclado para selecionar as opções numéricas apresentadas no terminal.
 
 === AgilStore Modulada: Gerenciamento de Estoque ===
